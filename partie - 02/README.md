@@ -122,12 +122,4 @@ Ce savoir-faire est essentiel pour créer des environnements de développement p
 
     
     ---
-    
-    Si tu veux, je peux te faire **une version finale encore plus “GitHub ready”**, avec :  
-    - Table des matières cliquable  
-    - Badges pour Ubuntu et Windows  
-    - Couleurs et icônes pour chaque section  
-    
-    Ça ferait un fichier super pro que tu pourrais directement montrer sur ton profil GitHub.  
-    
-    Veux‑tu que je fasse cette version ?
+   
