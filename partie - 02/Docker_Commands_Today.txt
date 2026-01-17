@@ -1,0 +1,21 @@
+# Lancer et interagir avec des conteneurs
+docker run ubuntu:24.10
+docker run -it ubuntu:24.10
+docker run -it --rm ubuntu:24.10
+docker run -it --rm ubuntu
+
+# Lister les conteneurs
+docker ps
+docker ps -a
+
+# Gérer les conteneurs
+docker start <id-conteneur>
+docker stop <id-conteneur>
+docker rm <id-conteneur>
+docker exec -it <id-conteneur> bash
+docker exec <id-conteneur> touch main.js
+
+# Installer des logiciels dans un conteneur
+apt update
+apt install -y vim
+apt install -y php
