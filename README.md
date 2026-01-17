@@ -2,7 +2,7 @@
 <p align="center">
   <img src="img/screenShot.png" >  
 </p>
-
+ 
 Ce document résume les commandes Docker de base apprises lors de mes tests sous Windows. Il couvre la vérification de l’installation, la gestion des conteneurs et la suppression des images.
 
 ---
