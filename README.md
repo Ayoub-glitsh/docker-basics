@@ -1,61 +1,210 @@
-# 🐳 Session d'apprentissage Docker
-<p align="center">
-  <img src="img/screenShot.png" >  
-</p>
- 
-Ce document résume les commandes Docker de base apprises lors de mes tests sous Windows. Il couvre la vérification de l’installation, la gestion des conteneurs et la suppression des images.
+  
 
+
+# Apprentissage Complet Docker 🐳
+    
+ Ce dépôt regroupe tous les concepts, commandes et bonnes pratiques pour apprendre Docker de A à Z : des bases jusqu’aux fonctionnalités avancées.
+    
 ---
+    
+ ## 🎯 Objectifs
+  - Maîtriser les commandes de base et avancées de Docker  
+  - Comprendre les volumes et leur gestion  
+    - Utiliser Docker Hub pour partager des images  
+    - Mapper des ports et connecter des conteneurs  
+    - Créer et gérer des réseaux personnalisés  
+    - Écrire des Dockerfiles et construire des images personnalisées  
+    - Déployer et organiser des conteneurs de manière professionnelle  
+    
+    ---
+    
+    ## 1️⃣ Concepts de base
+    - **Image** : modèle statique pour créer un conteneur  
+    - **Conteneur** : instance d’une image en cours d’exécution  
+    - **Docker Hub** : registre public d’images  
+    - **Volume** : espace pour stocker des données persistantes  
+    - **Réseau** : permet la communication entre conteneurs  
+    
+    ---
+    
+    ## 2️⃣ Commandes de base
+    ```bash
+    # Vérifier l'installation
+    docker --version
+    docker info
+    
+    # Lancer un conteneur
+    docker run ubuntu:24.10
+    docker run -it ubuntu:24.10
+    docker run -it --rm ubuntu
+    
+    # Lister les conteneurs
+    docker ps
+    docker ps -a
+    
+    # Gérer les conteneurs
+    docker start 
+    docker stop 
+    docker rm 
+    docker exec -it  bash
+    
+    # Gestion des images
+    docker images
+    docker rmi 
+    docker build -t monimage:1.0 .
+    
 
-## 🎯 Ce que j’ai appris
+* * *
 
-### 1️⃣ Commandes de base
-- `docker --version` : vérifier que Docker est installé  
-- `docker run <image>` : lancer un conteneur  
-- `docker ps -a` : afficher tous les conteneurs  
-- `docker images` : lister les images Docker  
+3️⃣ Commandes avancées
+----------------------
 
----
+    # Lister les volumes
+    docker volume ls
+    
+    # Créer un volume
+    docker volume create monvolume
+    
+    # Supprimer un volume
+    docker volume rm monvolume
+    
+    # Mapper un volume dans un conteneur
+    docker run -v monvolume:/data ubuntu
+    
+    # Mapper un port local vers un conteneur
+    docker run -p 8080:80 nginx
+    
+    # Connecter un conteneur à un réseau personnalisé
+    docker network create monreseau
+    docker run --network monreseau ubuntu
+    
+    # Inspecter un conteneur
+    docker inspect 
+    docker logs 
+    docker stats 
+    
 
-### 2️⃣ Gestion des conteneurs
-- `docker rm <id-conteneur>` permet de supprimer un conteneur  
-- On peut utiliser l’ID complet ou seulement les premiers caractères  
-- `docker container rm` est équivalent à `docker rm`  
+* * *
 
----
+4️⃣ Docker Hub
+--------------
 
-### 3️⃣ Gestion des images
-- `docker rmi <id-image>` supprime une image Docker  
-- Il faut supprimer les conteneurs avant l’image  
-- `docker rmi` et `docker image rm` font la même chose  
+*   **Pousser une image vers Docker Hub** :
+    
 
----
+    docker login
+    docker tag monimage moncompte/monimage:1.0
+    docker push moncompte/monimage:1.0
+    
 
-### 4️⃣ Points importants
-- Une image ne peut pas être supprimée si un conteneur l’utilise  
-- L’ordre correct est : conteneurs puis images  
-- `hello-world` est une image de test qui s’arrête automatiquement  
+*   **Récupérer une image depuis Docker Hub** :
+    
 
----
+    docker pull nginx
+    
 
-## 📝 Commandes connues
+* * *
 
-```bash
-# Vérification
-docker --version
+5️⃣ Réseaux Docker
+------------------
 
-# Exécution
-docker run hello-world
+*   Types de réseau :
+    
+    *   **bridge** : réseau par défaut pour les conteneurs isolés
+        
+    *   **host** : le conteneur partage le réseau de l’hôte
+        
+    *   **overlay** : réseau pour plusieurs hôtes (Swarm)
+        
+*   Créer un réseau personnalisé :
+    
 
-# Inspection
-docker ps -a
-docker images
+    docker network create monreseau
+    docker run --network monreseau ubuntu
+    
 
-# Nettoyage
-docker rm <id-conteneur>
-docker rmi <id-image>
+* * *
 
-# Alias
-docker container ls -a
-docker container rm <id>
-docker image rm <id>
+6️⃣ Dockerfile et création d’images personnalisées
+--------------------------------------------------
+
+*   Exemple Dockerfile :
+    
+
+    # Image de base
+    FROM ubuntu:24.10
+    
+    # Installer des logiciels
+    RUN apt update && apt install -y vim php
+    
+    # Copier un fichier dans l’image
+    COPY ./app /app
+    
+    # Définir la commande par défaut
+    CMD ["bash"]
+    
+
+*   Construire l’image :
+    
+
+    docker build -t monimage:1.0 .
+    
+
+*   Lancer un conteneur avec cette image :
+    
+
+    docker run -it --rm monimage:1.0
+    
+
+* * *
+
+7️⃣ Bonnes pratiques
+--------------------
+
+*   Utiliser `--rm` pour les conteneurs temporaires
+    
+*   Garder les images légères
+    
+*   Documenter les Dockerfiles
+    
+*   Isoler les conteneurs pour les tests et la production
+    
+*   Utiliser les volumes pour persister les données
+    
+
+* * *
+
+8️⃣ Ressources complémentaires
+------------------------------
+
+*   [Documentation officielle Docker](https://docs.docker.com/)
+    
+*   [Docker Hub](https://hub.docker.com/)
+    
+*   [Tutoriels Docker 101](https://www.docker.com/101-tutorial)
+    
+*   [Play with Docker](https://labs.play-with-docker.com/)
+    
+
+* * *
+
+✅ Objectif final
+----------------
+
+*   Créer des environnements de développement **reproductibles**
+    
+*   Déployer des applications conteneurisées
+    
+*   Gérer des conteneurs, images, volumes et réseaux de manière professionnelle
+    
+
+    
+    ---
+    
+    Si tu veux, je peux te faire **une version “GitHub Ready” encore plus stylée** avec :  
+    - Typing animation pour le titre  
+    - Badges pour Docker, Ubuntu et autres  
+    - Table des matières cliquable pour naviguer facilement  
+    - Sections colorées pour commandes de base vs avancées  
+    
+    Veux‑tu que je fasse cette version ?
