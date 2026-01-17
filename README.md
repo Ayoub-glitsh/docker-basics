@@ -118,10 +118,10 @@
         
 *   Créer un réseau personnalisé :
     
-
+```bash
     docker network create monreseau
     docker run --network monreseau ubuntu
-    
+```  
 
 * * *
 
