@@ -10,11 +10,11 @@
  ## 🎯 Objectifs
   - Maîtriser les commandes de base et avancées de Docker  
   - Comprendre les volumes et leur gestion  
-    - Utiliser Docker Hub pour partager des images  
-    - Mapper des ports et connecter des conteneurs  
-    - Créer et gérer des réseaux personnalisés  
-    - Écrire des Dockerfiles et construire des images personnalisées  
-    - Déployer et organiser des conteneurs de manière professionnelle  
+  - Utiliser Docker Hub pour partager des images  
+  - Mapper des ports et connecter des conteneurs  
+  - Créer et gérer des réseaux personnalisés  
+  - Écrire des Dockerfiles et construire des images personnalisées  
+  - Déployer et organiser des conteneurs de manière professionnelle  
     
     ---
     
@@ -199,12 +199,4 @@
     
 
     
-    ---
-    
-    Si tu veux, je peux te faire **une version “GitHub Ready” encore plus stylée** avec :  
-    - Typing animation pour le titre  
-    - Badges pour Docker, Ubuntu et autres  
-    - Table des matières cliquable pour naviguer facilement  
-    - Sections colorées pour commandes de base vs avancées  
-    
-    Veux‑tu que je fasse cette version ?
+  
