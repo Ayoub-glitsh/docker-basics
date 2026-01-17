@@ -2,7 +2,7 @@ Parfait ! Voici une **version professionnelle prête à partager sur GitHub**, a
 
     # 🐳 Apprentissage Docker – 17 Janvier 2026
     
-    ![Docker](https://img.shields.io/badge/Docker-🐳-blue)
+    ![Docker](https://img.shields.io/badge/Docker-🐳-blue) 
     
     Ce document présente les commandes et concepts Docker que j’ai explorés et testés aujourd’hui sous Windows, avec des bonnes pratiques et observations pour un usage professionnel.
     
