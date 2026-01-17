@@ -146,15 +146,15 @@
 
 *   Construire l’image :
     
-
+```bash
     docker build -t monimage:1.0 .
-    
+ ```   
 
 *   Lancer un conteneur avec cette image :
     
-
+```bash
     docker run -it --rm monimage:1.0
-    
+``` 
 
 * * *
 
