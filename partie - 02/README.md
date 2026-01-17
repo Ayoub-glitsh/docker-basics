@@ -1,4 +1,3 @@
-
 # 🐳 Apprentissage Docker – 17 Janvier 2026
     
 ![Docker](https://img.shields.io/badge/Docker-🐳-blue) 
