@@ -20,7 +20,7 @@ Ce document présente les commandes et concepts Docker que j’ai explorés et t
 ---
     
 ## 1️⃣ Lancer et interagir avec des conteneurs
-    ```bash
+```bash
     # Lancer un conteneur Ubuntu
     docker run ubuntu:24.10
     
@@ -30,7 +30,7 @@ Ce document présente les commandes et concepts Docker que j’ai explorés et t
     # Lancer un conteneur interactif et le supprimer automatiquement à la fermeture
     docker run -it --rm ubuntu:24.10
     docker run -it --rm ubuntu
-    
+```
 
 * * *
 
