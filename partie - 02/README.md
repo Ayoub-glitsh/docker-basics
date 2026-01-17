@@ -1,22 +1,21 @@
-Parfait ! Voici une **version professionnelle prête à partager sur GitHub**, avec un style clair, badges et sections bien organisées, comme un vrai tutoriel ou carnet de bord de projet :
 
-    # 🐳 Apprentissage Docker – 17 Janvier 2026
+# 🐳 Apprentissage Docker – 17 Janvier 2026
     
-    ![Docker](https://img.shields.io/badge/Docker-🐳-blue) 
+![Docker](https://img.shields.io/badge/Docker-🐳-blue) 
     
-    Ce document présente les commandes et concepts Docker que j’ai explorés et testés aujourd’hui sous Windows, avec des bonnes pratiques et observations pour un usage professionnel.
+Ce document présente les commandes et concepts Docker que j’ai explorés et testés aujourd’hui sous Windows, avec des bonnes pratiques et observations pour un usage professionnel.
     
-    ---
+---
     
-    ## 🎯 Objectifs de la session
-    - Lancer et interagir avec des conteneurs Ubuntu  
-    - Comprendre la gestion des conteneurs (`start`, `stop`, `rm`, `exec`)  
-    - Installer et tester des logiciels dans un conteneur  
-    - Se familiariser avec les options `-it` et `--rm`  
+## 🎯 Objectifs de la session
+ - Lancer et interagir avec des conteneurs Ubuntu  
+ - Comprendre la gestion des conteneurs (`start`, `stop`, `rm`, `exec`)  
+ - Installer et tester des logiciels dans un conteneur  
+ - Se familiariser avec les options `-it` et `--rm`  
     
-    ---
+---
     
-    ## 1️⃣ Lancer et interagir avec des conteneurs
+## 1️⃣ Lancer et interagir avec des conteneurs
     ```bash
     # Lancer un conteneur Ubuntu
     docker run ubuntu:24.10
