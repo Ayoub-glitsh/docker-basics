@@ -91,17 +91,17 @@
 
 *   **Pousser une image vers Docker Hub** :
     
-
+```bash
     docker login
     docker tag monimage moncompte/monimage:1.0
     docker push moncompte/monimage:1.0
-    
+  ```  
 
 *   **Récupérer une image depuis Docker Hub** :
     
-
+```bash
     docker pull nginx
-    
+``` 
 
 * * *
 
