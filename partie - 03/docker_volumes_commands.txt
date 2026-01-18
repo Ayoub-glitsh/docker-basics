@@ -1,0 +1,25 @@
+# Préparation du dossier local (Windows)
+mkdir test
+cd test
+type nul > index.html
+echo <p>coucou</p> >> index.html
+type index.html
+
+# Lancer un conteneur avec un volume mappé
+docker run -it --rm -v C:\Users\HP\Desktop\test:/test-container ubuntu
+
+# Accéder au dossier monté dans le conteneur
+cd test-container
+ls
+cat index.html
+
+# Installer un éditeur dans le conteneur
+apt update
+apt install nano
+
+# Modifier le fichier depuis le conteneur
+nano index.html
+cat index.html
+
+# Vérification sur la machine hôte (Windows)
+type index.html
