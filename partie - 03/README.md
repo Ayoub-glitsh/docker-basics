@@ -20,13 +20,9 @@ Aujourd’hui, j’ai appris à utiliser les **volumes mappés (bind mounts)** d
     mkdir test
     cd test
     type nul > index.html
-    echo 
-
-coucou
-
- >> index.html
+    echo coucou >> index.html
     type index.html
-    
+```  
 
 * * *
 
@@ -110,11 +106,4 @@ coucou Ayoub
 Les volumes mappés sont essentiels pour travailler efficacement avec Docker, notamment pour modifier des fichiers localement tout en exécutant l’application dans un conteneur.
 
     
-    ---
     
-    Si tu veux, prochaine étape logique 👇  
-    - 🔜 **Volumes Docker (`docker volume create`) vs Bind Mounts**  
-    - 🔜 **Mapper un volume avec Nginx ou MongoDB**  
-    - 🔜 **Dockerfile + volume**  
-    
-    Dis-moi ce que tu veux apprendre ensuite 🔥
