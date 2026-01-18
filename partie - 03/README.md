@@ -6,7 +6,7 @@
 
 <!-- Image -->
 <div align="center">
-  <img src="../img/docker_volume_example.png" alt="Exemple Volumes Docker" width="600" />
+  <img src="../img/docker_img_01.png" alt="Exemple Volumes Docker" width="600" />
 </div>
 
 # 🐳 Apprentissage Docker – Volumes Mappés (Bind Mounts)
