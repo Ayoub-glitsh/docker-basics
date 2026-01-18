@@ -1,4 +1,14 @@
 # 🐳 Apprentissage Docker – Volumes & Bind Mounts
+<p align="center">
+  <img src="../img/volume_img.png" alt="Docker Volumes" width="600">
+</p>
+<p align="center">
+  <img src="../img/volume_img_01.png" alt="Docker Volumes" width="600">
+</p>
+<p align="center">
+  <img src="../img/volume_img_02.png" alt="Docker Volumes" width="600">
+</p>
+
 
 ## 🎯 Objectif
 
