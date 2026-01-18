@@ -4,6 +4,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=1000&lines=Apprentissage+Docker+%E2%80%93+Volumes+Mapp%C3%A9s+(Bind+Mounts)" alt="Typing SVG" />
 </div>
 
+<!-- Image -->
+<div align="center">
+  <img src="../img/docker_volume_example.png" alt="Exemple Volumes Docker" width="600" />
+</div>
 
 # 🐳 Apprentissage Docker – Volumes Mappés (Bind Mounts)
     
