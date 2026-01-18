@@ -75,7 +75,6 @@ docker run -it --rm -v C:\Users\HP\Desktop\test:/test-container ubuntu
 
 ## ⚠️ Erreurs rencontrées et corrigées
 
-* Mauvais nom d’image (`unbuntu` ❌ → `ubuntu` ✅)
 * Confusion entre `volume` et `bind mount`
 * Suppression de volume par ID incomplet
 
