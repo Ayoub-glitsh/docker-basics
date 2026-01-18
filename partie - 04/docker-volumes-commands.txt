@@ -1,0 +1,10 @@
+docker volume create mon_volume
+docker volume ls
+docker volume rm mon_volume
+docker volume rm <volume_name>
+docker volume rm <volume_id>
+docker run -it --rm -v mon_volume:/bin ubuntu
+docker run -it --rm -v mon_volume:/test ubuntu
+docker ps
+docker ps -a
+docker volume inspect mon_volume
