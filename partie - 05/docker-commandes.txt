@@ -1,0 +1,5 @@
+# Lancer un conteneur Nginx (supprimé automatiquement à l'arrêt)
+docker run --rm nginx
+
+# Lancer un conteneur Nginx avec mapping de port 9000:80
+docker run --rm -p 9000:80 nginx
