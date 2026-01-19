@@ -2,7 +2,8 @@
 # 🐳 Apprentissage Docker – Conteneurs connectés
 
 <p align="center">
-  <img src="images/logo.png" width="300">
+  <img src="../img/connecting_two_containers_01.png" width="300">
+  <img src="../img/connecting_two_02.png" width="300">
 </p>
 
 Ce dépôt documente mon apprentissage de Docker, en particulier la **communication réseau à l’intérieur d’un conteneur**.  
