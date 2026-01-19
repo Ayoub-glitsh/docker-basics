@@ -1,6 +1,10 @@
 
 # 🐳 Apprentissage Docker – Conteneurs connectés
 
+<p align="center">
+  <img src="images/logo.png" width="300">
+</p>
+
 Ce dépôt documente mon apprentissage de Docker, en particulier la **communication réseau à l’intérieur d’un conteneur**.  
 L’objectif est de comprendre comment un conteneur fonctionne, comment inspecter son réseau et tester la connectivité.
 
