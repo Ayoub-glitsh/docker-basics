@@ -1,0 +1,32 @@
+docker network ls
+
+docker run --rm -it --network=bridge celtak/ubuntu-ping-ip
+docker run --rm -it --network=none celtak/ubuntu-ping-ip
+docker run --rm -it celtak/ubuntu-ping-ip
+
+ip -c a
+
+docker network create --driver=bridge fruits
+docker network create --driver=bridge legumes
+
+docker run -it --rm --network=fruits --name=ananas celtak/ubuntu-ping-ip
+docker run -it --rm --network=fruits --name=pomme celtak/ubuntu-ping-ip
+
+docker run --rm -it --name=oignon celtak/ubuntu-ping-ip
+docker run --rm -it --name=poivron celtak/ubuntu-ping-ip
+
+docker network connect legumes oignon
+docker network connect legumes poivron
+
+ping pomme
+ping ananas
+ping poivron
+
+docker network inspect fruits
+
+docker network disconnect fruits ananas
+docker network disconnect fruits pomme
+docker network disconnect legumes oignon
+docker network disconnect legumes poivron
+
+docker network rm legumes fruits
