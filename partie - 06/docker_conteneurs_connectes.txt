@@ -1,0 +1,21 @@
+# Lancer un conteneur Ubuntu en mode interactif
+docker run --rm -it ubuntu
+
+# Mettre à jour la liste des paquets
+apt update
+
+# Installer l’outil ping
+apt install -y iputils-ping
+
+# Installer les outils réseau (ip)
+apt install -y iproute2
+
+# Afficher l’aide de ping
+ping -h
+
+# Afficher les interfaces réseau et adresses IP
+ip a
+ip -c a
+
+# Tester la connectivité réseau avec ping
+ping 172.17.0.3
