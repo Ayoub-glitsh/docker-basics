@@ -3,12 +3,17 @@
 📘 Apprentissage Docker — Réseaux personnalisés
 -----------------------------------------------
 
-
 <p align="center">
-  <img src="../img/network_schema.png" alt="Docker Networks" width="300">
-  <img src="../img/network_01.png" alt="Docker Networks" width="300">
-  <img src="../img/network_02.png" alt="Docker Networks" width="300">
-  <img src="../img/network_03.png" alt="Docker Networks" width="300">
+  <img src="../img/network_schema.png" alt="Docker Networks">
+</p>
+<p align="center">
+<img src="../img/network_01.png" alt="Docker Networks" >
+</p>
+<p align="center">
+  <img src="../img/network_02.png" alt="Docker Networks" >
+</p>
+<p align="center">
+  <img src="../img/network_03.png" alt="Docker Networks" >
 </p>
 
 
