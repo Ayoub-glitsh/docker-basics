@@ -3,6 +3,12 @@
 📘 Apprentissage Docker — Réseaux personnalisés
 -----------------------------------------------
 
+
+<p align="center">
+  <img src="../img/screenshot.png" alt="Docker Networks" width="600">
+</p>
+
+
 ### 🎯 Objectif
 
 Comprendre comment fonctionnent les **réseaux Docker**, comment **connecter / isoler des conteneurs**, et créer des **réseaux personnalisés** pour permettre la communication entre conteneurs.
