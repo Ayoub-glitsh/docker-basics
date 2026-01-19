@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="images/docker.png" alt="Docker" width="300">
+</p>
 
 ---
 
