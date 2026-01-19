@@ -4,9 +4,7 @@
 # 🐳 Apprentissage Docker – Mapping des Ports (Port Mapping)
 <p align="center">
   <img src="../img/nginx.png" alt="Docker" width="300">
-</p>
-<p align="center">
-  <img src="../img/port.png" alt="Docker" width="300">
+   <img src="../img/port.png" alt="Docker" width="300">
 </p>
 
 
