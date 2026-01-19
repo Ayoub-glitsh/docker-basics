@@ -6,7 +6,7 @@
   <img src="../img/volume_img_01.png" alt="Docker Volumes" width="600">
 </p>
 <p align="center">
-  <img src="../img/volume_img_02.png" alt="Docker Volumes" width="600">
+  <img src="../img/volume_img_new.png" alt="Docker Volumes" width="600">
 </p>
 
 
