@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="images/docker.png" alt="Docker" width="300">
-</p>
 
 ---
 
 # 🐳 Apprentissage Docker – Mapping des Ports (Port Mapping)
+<p align="center">
+  <img src="../img/nginx.png" alt="Docker" width="300">
+</p>
+
 
 ## 📌 Objectif
 
