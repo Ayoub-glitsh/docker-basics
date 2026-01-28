@@ -100,4 +100,4 @@ Commande utilisée :
 Permet de vérifier que l’image `ubuntu_nodejs` a bien été créée.
 
 * * *
-a explicatif (image Docker → conteneur)**
+
