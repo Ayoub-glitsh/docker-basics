@@ -24,7 +24,7 @@
   Une image Docker est un modèle immuable utilisé pour créer des conteneurs.  
     Elle est construite à partir d’un **Dockerfile**.
     
-    ---
+---
     
   ### 🔹 Dockerfile
   Un **Dockerfile** est un fichier texte qui contient une suite d’instructions permettant à Docker de construire une image.
@@ -33,7 +33,7 @@
     - `FROM`
     - `RUN`
     
-    ---
+---
     
   ## 🧱 Création d’une image personnalisée
     
@@ -97,29 +97,4 @@ Commande utilisée :
 Permet de vérifier que l’image `ubuntu_nodejs` a bien été créée.
 
 * * *
-
-🚀 Prochaines améliorations possibles
--------------------------------------
-
-*   Installer `npm`
-    
-*   Ajouter une application Node.js
-    
-*   Utiliser `CMD` pour lancer un script
-    
-*   Optimiser le Dockerfile (moins de couches)
-    
-*   Exposer un port (`EXPOSE`)
-    
-
-* * *
-
-📌 _Cours réalisé dans le cadre de l’apprentissage de Docker et de la création d’images personnalisées._
-
-    
-    ---
-    
-    Si tu veux, je peux aussi :
-    - transformer ça en **compte-rendu de TP**
-    - le rendre plus **simple pour débutant**
-    - ou ajouter un **schéma explicatif (image Docker → conteneur)**
+a explicatif (image Docker → conteneur)**
