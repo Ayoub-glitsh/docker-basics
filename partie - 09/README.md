@@ -186,12 +186,3 @@ Supprimer une image
 
 * * *
 
-📌 _Cours réalisé dans le cadre de l’apprentissage de Docker et du déploiement d’images sur Docker Hub._
-
-    
-    ---
-    
-    Si tu veux, je peux aussi :
-    - le transformer en **compte-rendu de TP**
-    - ajouter une **section “Prérequis”**
-    - ou corriger le **niveau académique (ISTA / EMI / école d’ingénieur)**
