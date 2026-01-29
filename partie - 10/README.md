@@ -3,6 +3,11 @@
 
 
 ## 🐳 Partie du jour – Créer un fichier `compose.yml`
+
+<p align="center">
+  <img src="../img/if.png" alt="Docker Compose" width="450">
+</p>
+
     
 ### 🎯 Objectif
 Apprendre à utiliser **Docker Compose** pour lancer un ou plusieurs conteneurs à partir d’un fichier de configuration `compose.yml`.
