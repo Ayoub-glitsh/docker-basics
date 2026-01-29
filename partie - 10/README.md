@@ -1,18 +1,17 @@
-Parfait 👍  
-Voici **uniquement la partie du cours consacrée à : _Créer un fichier `compose.yml`_**, prête à être intégrée dans ton README.
 
-* * *
 
-    ## 🐳 Partie du jour – Créer un fichier `compose.yml`
+
+
+## 🐳 Partie du jour – Créer un fichier `compose.yml`
     
-    ### 🎯 Objectif
-    Apprendre à utiliser **Docker Compose** pour lancer un ou plusieurs conteneurs à partir d’un fichier de configuration `compose.yml`.
+### 🎯 Objectif
+Apprendre à utiliser **Docker Compose** pour lancer un ou plusieurs conteneurs à partir d’un fichier de configuration `compose.yml`.
     
-    ---
+---
     
-    ## 1️⃣ Vérifier Docker Compose
+## 1️⃣ Vérifier Docker Compose
     
-    ```bat
+   
     docker compose version
     
 
@@ -120,7 +119,4 @@ Voici **uniquement la partie du cours consacrée à : _Créer un fichier `compos
     
     ---
     
-    Si tu veux, je peux aussi :
-    - simplifier encore plus (niveau **débutant total**)
-    - ou ajouter une **comparaison `docker run` vs `docker compose`**
-    ::contentReference[oaicite:0]{index=0}
+  
