@@ -13,12 +13,12 @@ Ce cours explique les étapes nécessaires pour **publier une image Docker cré�
     
 ## 🎯 Objectifs du cours
     
- - Comprendre ce qu’est Docker Hub
- - Lister les images Docker locales
+- Comprendre ce qu’est Docker Hub
+- Lister les images Docker locales
 - Tagger correctement une image
-    - Publier une image sur Docker Hub
-    - Tester une image publiée
-    - Comprendre les erreurs courantes
+- Publier une image sur Docker Hub
+- Tester une image publiée
+- Comprendre les erreurs courantes
     
 ---
     
