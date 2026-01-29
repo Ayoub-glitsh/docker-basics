@@ -1,41 +1,36 @@
-Parfait 👍  
-Voici un **README.md / cours complet et bien structuré** avec le **bon titre** :
 
-👉 **Cours : Comment publier une image sur Docker Hub**
 
-Tu peux le copier directement.
 
-* * *
 
-    # 🐳 Cours Docker – Publier une image sur Docker Hub
+# 🐳 Cours Docker – Publier une image sur Docker Hub
     
-    ## 📅 Thème du cours
-    **Comment publier une image Docker sur Docker Hub**
+## 📅 Thème du cours
+**Comment publier une image Docker sur Docker Hub**
     
-    Ce cours explique les étapes nécessaires pour **publier une image Docker créée localement** vers **Docker Hub**, afin de la rendre accessible publiquement ou privéement.
+Ce cours explique les étapes nécessaires pour **publier une image Docker créée localement** vers **Docker Hub**, afin de la rendre accessible publiquement ou privéement.
     
-    ---
+---
     
-    ## 🎯 Objectifs du cours
+## 🎯 Objectifs du cours
     
-    - Comprendre ce qu’est Docker Hub
-    - Lister les images Docker locales
-    - Tagger correctement une image
+ - Comprendre ce qu’est Docker Hub
+ - Lister les images Docker locales
+- Tagger correctement une image
     - Publier une image sur Docker Hub
     - Tester une image publiée
     - Comprendre les erreurs courantes
     
-    ---
+---
     
-    ## 📘 Docker Hub
+## 📘 Docker Hub
     Docker Hub est un **registre en ligne** qui permet de :
     - stocker des images Docker
     - partager des images avec d’autres développeurs
     - télécharger des images officielles ou personnelles
     
-    ---
+---
     
-    ## 1️⃣ Lister les images locales
+## 1️⃣ Lister les images locales
     
     ❌ Erreur rencontrée :
     ```bash
