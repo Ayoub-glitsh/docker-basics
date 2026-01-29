@@ -1,0 +1,13 @@
+docker images
+
+docker run -it --rm ayoubdev123/celtak
+
+docker tag ubuntu_nodejs ayoubdev123/celtak
+
+docker push ayoubdev123/celtak
+
+docker rmi ubuntu_nodejs
+
+docker run -it --rm ayoubdev123/celtak
+
+node -v
