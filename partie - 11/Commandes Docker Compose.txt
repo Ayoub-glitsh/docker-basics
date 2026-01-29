@@ -1,0 +1,6 @@
+docker compose up -d
+docker ps
+docker exec -it celtak_ubuntu bash
+docker compose stop
+docker compose rm
+docker volume ls
