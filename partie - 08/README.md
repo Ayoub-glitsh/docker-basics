@@ -2,7 +2,7 @@
 # 🐳 Cours Docker – Créer une image personnalisée
 <center>
 <img src="../img/Dockerfile.png" alt="Docker Image" />
-</center>
+</center> 
     
    ## 📅 Cours d’aujourd’hui
   **Thème : Créer une image Docker personnalisée**
