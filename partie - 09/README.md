@@ -23,7 +23,7 @@ Ce cours explique les étapes nécessaires pour **publier une image Docker cré�
 ---
     
 ## 📘 Docker Hub
-    Docker Hub est un **registre en ligne** qui permet de :
+   Docker Hub est un **registre en ligne** qui permet de :
     - stocker des images Docker
     - partager des images avec d’autres développeurs
     - télécharger des images officielles ou personnelles
@@ -32,10 +32,12 @@ Ce cours explique les étapes nécessaires pour **publier une image Docker cré�
     
 ## 1️⃣ Lister les images locales
     
-    ❌ Erreur rencontrée :
-    ```bash
-    dockerimages
+   ❌ Erreur rencontrée :
+
+   
     
+    dockerimages
+   
 
 ✅ Bonne commande :
 
