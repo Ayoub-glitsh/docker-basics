@@ -3,9 +3,9 @@
 
 
 # 🐳 Cours Docker – Publier une image sur Docker Hub
-<center>
-<img src="../img/Dockerfile.png" alt="Docker Image"  width=400 />
-</center>
+<p align="center">
+<img src="../img/celtak.png" alt="Docker Image"  width=600  />
+</p>
     
 ## 📅 Thème du cours
 **Comment publier une image Docker sur Docker Hub**
