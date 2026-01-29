@@ -1,0 +1,12 @@
+services:
+  my_ubuntu:
+    image: celtak/ubuntu-ping-ip
+    container_name: celtak_ubuntu
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/data-dans-le-conteneur
+      - test_volume:/test-volume-dans-le-conteneur
+
+volumes:
+  test_volume:
