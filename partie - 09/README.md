@@ -148,29 +148,13 @@ Lors du `docker push`, des erreurs réseau peuvent apparaître :
 🧾 Commandes Docker utilisées
 -----------------------------
 
-Commande
-
-Description
-
-`docker images`
-
-Lister les images locales
-
-`docker run`
-
-Lancer un conteneur
-
-`docker tag`
-
-Tagger une image
-
-`docker push`
-
-Publier une image
-
-`docker rmi`
-
-Supprimer une image
+| Commande        | Description              |
+|----------------|--------------------------|
+| docker images  | Lister les images locales |
+| docker run     | Lancer un conteneur      |
+| docker tag     | Tagger une image         |
+| docker push    | Publier une image        |
+| docker rmi     | Supprimer une image      |
 
 * * *
 
