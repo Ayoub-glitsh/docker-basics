@@ -4,7 +4,7 @@
   # 🐳 Docker – Volumes mappés et managés avec Docker Compose
 
   <p align="center">
-  <img src="../img/docker-volumes.png" alt="Volumes Docker" width="450">
+  <img src="../img/volumewhityml.png" alt="Volumes Docker" width="450">
 </p>
     
   ## 📅 Thème de la session
